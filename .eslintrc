@@ -1,0 +1,28 @@
+{
+    "rules": {
+        "no-unused-vars": "warn",
+        "no-trailing-spaces": "warn",
+        "semi": ["warn", "always"],
+        "space-before-blocks": "warn",
+        "no-console": ["off"],
+        "brace-style": ["warn", "1tbs"],
+        "camelcase": ["warn", {"properties": "never"}],
+        "keyword-spacing": "warn",
+        "space-infix-ops": "warn",
+        "no-const-assign": "warn",
+        "no-this-before-super": "warn",
+        "no-unreachable": "warn",
+        "constructor-super": "warn",
+        "valid-typeof": "warn"
+    },
+    "env": {
+        "node": true,
+        "es6": true
+    },
+    "parserOptions": {
+        "ecmaVersion": 8,
+        "ecmaFeatures": {},
+        "sourceType": "module"
+    },
+    "extends": "eslint:recommended"
+}
