@@ -14,6 +14,16 @@ npm install
 node server
 ```
 
+Start using Docker
+
+```bash
+# Building the image
+docker build --tag webrtcvideobroadcast .
+
+# Run the image in a container
+docker run -d -p 4000:4000 webrtcvideobroadcast
+```
+
 ## Author
 
 Gabriel Tanner
