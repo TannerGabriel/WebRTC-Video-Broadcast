@@ -12,9 +12,9 @@ const video = document.querySelector("video");
 
 // Media contrains
 const constraints = {
-  video: { facingMode: "user" },
-// Uncomment to enable audio
-//   audio: true,
+  video: { facingMode: "user" }
+  // Uncomment to enable audio
+  // audio: true,
 };
 
 navigator.mediaDevices
@@ -55,7 +55,7 @@ socket.on("candidate", (id, candidate) => {
 });
 
 socket.on("disconnectPeer", id => {
-  peerConnections[id] && peerConnections[id].close();
+  peerConnections[id].close();
   delete peerConnections[id];
 });
 
