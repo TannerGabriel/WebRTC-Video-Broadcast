@@ -1,10 +1,14 @@
 # WebRTC Video/Audio Broadcast
 
-Sends a video from the broadcast page to all connected clients (watchers) over WebRTC PeerToPeer connections.
+WebRTC PeerToPeer broadcast application that allows the broadcaster to send video and audio stream to all connected users (watchers). 
+
+You can find the tutorial that explains the code and functionality on my [website](https://gabrieltanner.org/blog/webrtc-video-broadcast).
 
 ## Getting started
 
-Start using Node
+### Starting the application
+
+Start the application using Node:
 
 ```bash
 # Install dependencies for server
@@ -14,7 +18,7 @@ npm install
 node server
 ```
 
-Start using Docker
+Start the application using Docker:
 
 ```bash
 # Building the image
@@ -23,6 +27,12 @@ docker build --tag webrtcvideobroadcast .
 # Run the image in a container
 docker run -d -p 4000:4000 webrtcvideobroadcast
 ```
+
+### Testing the application
+
+The application should now be running on your localhost:4000 and you test it by connecting to localhost:4000/broadcast to add a new broadcaster.
+
+After that, you just need to visit localhost:4000 to connect to the server as a client and you should get the video that is streamed from the broadcaster.
 
 ## Author
 
