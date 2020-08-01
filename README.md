@@ -30,7 +30,7 @@ docker run -d -p 4000:4000 webrtcvideobroadcast
 
 ### Testing the application
 
-The application should now be running on your localhost:4000 and you test it by connecting to localhost:4000/broadcast to add a new broadcaster.
+The application should now be running on your localhost:4000 and you test it by connecting to localhost:4000/broadcast.html to add a new broadcaster.
 
 After that, you just need to visit localhost:4000 to connect to the server as a client and you should get the video that is streamed from the broadcaster.
 
