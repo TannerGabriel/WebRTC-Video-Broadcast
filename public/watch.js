@@ -21,6 +21,7 @@ socket.on("offer", (id, description) => {
     });
   peerConnection.ontrack = event => {
     video.srcObject = event.streams[0];
+    video.play();
   };
   peerConnection.onicecandidate = event => {
     if (event.candidate) {
