@@ -34,6 +34,17 @@ The application should now be running on your localhost:4000 and you test it by 
 
 After that, you just need to visit localhost:4000 to connect to the server as a client and you should get the video that is streamed from the broadcaster.
 
+## Adding a TURN server
+
+A TURN server is used to relay traffic if a direct peer to peer connection fails and is required for most WebRTC application since a direct socket is often not possible between two clients that aren't on the same network. This repository doesn't include the usage of a TURN server by default, but you can add one by commenting in the turn configuration in the `broadcast.js` and `watch.js` file and filling in your TURN credentials.
+
+There are several options on how you can create your own TURN server. Here are just two common ones:
+
+- [Coturn](https://github.com/coturn/coturn)
+- [Golang WebRTC pion library TURN examples](https://github.com/pion/turn/tree/master/examples)
+
+You can also use TURN servers from cloud providers or other companies.
+
 ## Author
 
 Gabriel Tanner
