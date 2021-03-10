@@ -7,32 +7,37 @@ assignees: ''
 
 ---
 
+<!-- 
+⚠️⚠️ All fields that are not marked as optional need to be provided ⚠️⚠️
+⚠️⚠️ Incomplete reports will be marked as invalid, and closed, with few exceptions ⚠️⚠️ 
+-->
+
 **Describe the bug**
 A clear and concise description of what the bug is.
 
 **To Reproduce**
 Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+1. 
+2. 
+3. 
 
 **Expected behavior**
 A clear and concise description of what you expected to happen.
 
-**Screenshots**
+**Screenshots (optional)**
 If applicable, add screenshots to help explain your problem.
 
 **Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
+ - OS: [e.g. Windows 10]
+ - CPU architecture: [e.g. x86]
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+**Dependency versions:**
+ - Nodejs version: [e.g. 10]
 
-**Additional context**
+**Additional context (optional)**
 Add any other context about the problem here.
+
+**Checklist**:
+<!--- Make sure you've completed the following steps (put an "X" between of brackets): -->
+- [] I included all information required in the sections above
+- [] I made sure there are no duplicates of this report [(Use Search)](https://github.com/TannerGabriel/WebRTC-Video-Broadcast/issues?q=is%3Aissue)
