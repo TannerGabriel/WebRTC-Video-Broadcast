@@ -17,6 +17,6 @@
     "socket.io": "^4.0.1"
   },
   "devDependencies": {
-    "eslint": "7.28.0"
+    "eslint": "8.0.1"
   }
 }
