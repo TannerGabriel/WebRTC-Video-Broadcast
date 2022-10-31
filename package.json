@@ -13,10 +13,10 @@
   "author": "Tanner Gabriel",
   "license": "MIT",
   "dependencies": {
-    "express": "^4.17.1",
-    "socket.io": "^4.0.1"
+    "express": "^4.18.2",
+    "socket.io": "^4.5.3"
   },
   "devDependencies": {
-    "eslint": "8.0.1"
+    "eslint": "8.26.0"
   }
 }
